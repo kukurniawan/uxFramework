@@ -1,0 +1,96 @@
+﻿.ui-icon-validation {
+    width: 16px;
+    height: 16px;
+}
+
+.ux-widget {
+    height: 20px;
+}
+
+.ux-widget-info {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ux-widget-info .ui-icon {
+    margin: auto;
+}
+
+.ui-icon-validation {
+    width: 20px;
+	height: 100%;
+}
+
+.ux-widget-error {
+    
+}
+
+/* uxFramework Textbox Widget */
+.ux-textbox {
+    width:200px;
+}
+
+.ux-textbox-input {
+    float: none!important;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 0 4px 0 8px;
+}
+
+.ux-textbox-input .ux-input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    height: 100% !important;
+    width: 100%;
+    vertical-align: text-bottom;
+}
+
+.ux-textbox-input .ux-input:focus {
+    outline: none;
+}
+
+.ux-textbox-validation {
+    float: right;
+    height: 100%;
+    display: none;
+}
+
+.ux-textbox-validation .ui-icon {
+    height: 100%;
+}
+
+.ui-state-error .ux-textbox-validation{
+    display: inline-block;
+    border: none;
+}
+
+.ui-state-error .ux-textbox-input{
+    padding: 0 0 0 8px;
+}
+
+.ui-state-error .ux-textbox-info {
+    display: none;
+}
+
+.ui-tooltip {
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 0.8em;
+    width: 250px;
+}
+
+.ux-textbox-input-inline-title {
+    position:absolute;
+    left: 8px; 
+    top: 0;
+    height: 100%; 
+    color: #aaaaaa;
+    font-style: italic;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>uxFramework alpha demo</title>
+    <link href="css/ui-lightness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+    <link href="css/uxframework.css" rel="stylesheet">
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.js"></script>
+    <script src="js/uxframework.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#textbox').uxTextbox({
+                inputInfo: 'Please input employee full name',
+                inlineInputTitle: 'Steve Jobs',
+                isRequired: true
+            })
+        });
+    </script>
+
+</head>
+<body>
+    <h2>uxTextbox Demo</h2>
+    <div>
+        <input type="text" id="textbox"/>
+    </div>
+</body>
+</html>
