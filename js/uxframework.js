@@ -16,9 +16,13 @@
 /*
 **  uxFramework Widget
 */
+
+ux = window.ux = window.ux || {};
+ux.version = '1.0.0';
+
 $(function() {
 	$.widget('custom.uxTextbox', {
-		version: '1.0.0',
+		version: ux.version,
 		defaultElement: '<input>',
 		widgetEventPrefix: 'uxTextbox',
 		options: {
